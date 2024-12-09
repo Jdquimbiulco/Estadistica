@@ -1,0 +1,119 @@
+/* Hacemos que el body ocupe toda la pantalla */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Establece la altura para que ocupe toda la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('imgs/fondo.jpg');
+    background-size: cover; /* La imagen cubre toda la pantalla */
+    background-position: center; /* La imagen se centra */
+    background-repeat: no-repeat;
+}
+
+/* Centrar el contenido */
+.container {
+    position: relative;
+    z-index: 2; /* Asegura que el contenido esté encima de la imagen */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la visibilidad */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para el título */
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Color de fondo cuando se pasa el ratón */
+}
+
+/* Estilo para el pie de página */
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/* Estilos específicos para el primer parcial */
+.primer-parcial {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    padding: 30px;
+    height: 100vh; /* Establece la altura para que ocupe toda la ventana */
+    display: flex;
+    justify-content: flex-end; /* Mueve el contenido a la derecha */
+    align-items: center; /* Centra el contenido verticalmente */
+    background-image: url('imgs/fondoPrimer.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Mejorar la visibilidad del título */
+.primer-parcial h1 {
+    color: white;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra en el texto para mejorar visibilidad */
+}
+
+/* Mejorar la visibilidad de los párrafos */
+.primer-parcial main p {
+    color: #f0f0f0;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Sombra sutil para los párrafos */
+    max-width: 600px; /* Limitar el ancho del texto */
+    margin: 0 auto; /* Centrar el contenido */
+}
+
+/* Mejorar la visibilidad de los enlaces */
+.primer-parcial a {
+    color: #0e990e;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra en los enlaces */
+}
+
+.primer-parcial a:hover {
+    color: #45a049;
+}
+
+/* Mejorar los botones dentro de .primer-parcial */
+.primer-parcial nav button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra en los botones */
+}
+
+.primer-parcial nav button:hover {
+    background-color: #45a049;
+}
