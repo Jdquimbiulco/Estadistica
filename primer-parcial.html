@@ -7,25 +7,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body	class="primer-parcial">
-    <div class="content-right"> <!-- Contenido a la derecha -->
-        <header>
-            <h1>Primer Parcial</h1>
-        </header>
+<body class="primer-parcial">
+    <header>
+        <h1>Primer Parcial</h1>
+    </header>
 
-        <main>
-            <p>Aquí puedes agregar información y archivos relacionados al Primer Parcial.</p>
-            <a href="Archivos/Trabajo.pdf" target="_blank">TrabajoDeAplicacion</a> <!-- Enlace al PDF -->
-        </main>
+    <main>
+        <section class="contenedor">
+            <div class="videos">
+                <h2>Video Informativo</h2>
+                <video controls>
+                    <source src="videos/videoInformativo.mp4" type="video/mp4">
+                    Tu navegador no soporta el formato de video.
+                </video>
+
+                <h2>Video Educativo</h2>
+                <video controls>
+                    <source src="videos/videoEducativo.mp4" type="video/mp4">
+                    Tu navegador no soporta el formato de video.
+                </video>
+            </div>
+
+            <div class="archivos">
+                <h2>Archivos</h2>
+                <p>Aquí puedes descargar los archivos relacionados al primer parcial:</p>
+                <ul>
+                    <li><a href="archivos/Trabajo.pdf" target="_blank">Trabajo De Aplicación (PDF)</a></li>
+                    <li><a href="archivos/InformeEncuestaUsoChatPT.pdf" target="_blank">Informe Trabajo De Aplicación (PDF)</a></li>
+                    <li><a href="archivos/Pregunta06_JuanQuimbiulco.pdf" target="_blank">Pregunta 6 (Juan Quimbiulco) (PDF)</a></li>
+                    <li><a href="archivos/Pregunta06_JuanQuimbiulco.xlsx" target="_blank">Pregunta 6 (Juan Quimbiulco) (EXCEL)</a></li>
+                    <li><a href="archivos/Pregunta06_JuanQuimbiulco.omv" target="_blank">Pregunta 6 (Juan Quimbiulco) (JAMOVI)</a></li>
+                </ul>
+            </div>
+        </section>
 
         <!-- Botón de regreso al inicio -->
         <nav>
             <button onclick="window.location.href='index.html'">Regresar al Inicio</button>
         </nav>
+    </main>
 
-        <footer>
-            <p>© 2024 Mi Página Web Offline</p>
-        </footer>
-    </div>
+    <footer>
+        
+    </footer>
 </body>
 </html>
